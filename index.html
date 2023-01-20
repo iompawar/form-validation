@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <h2 style="color: white;">Form Validation</h2> -->
+    <div id="main">
+
+        <div id="form-container">
+            <form action="https://www.google.com"  onsubmit="return validate()">
+
+                <!-- heading -->
+                <h2 id="heading" style="color: white; text-align: center; margin-bottom: 25px;">Login</h2>
+
+                <!-- username -->
+                <input type="text" name="" id="username" placeholder="username">
+                <p id="username-correction"></p>
+
+                <!-- password -->
+                <input type="password" id="password" placeholder="password">
+                <p id="password-correction"></p>
+
+                <!-- submit -->
+                <input type="submit" value="Submit" id="submit-btn">
+
+            </form>
+        </div>
+
+    </div>
+
+
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+</body>
+
+</html>
